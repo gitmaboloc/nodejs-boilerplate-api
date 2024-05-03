@@ -1,0 +1,23 @@
+{
+    "database" : {
+        "host" : "localhost",
+        "port" : 3306,
+        "user" : "root",
+        "password" : "",
+        "database" : "node-mysql-signup-verification-api"
+    },
+    "secret" : "ae2fae4e-2482-47ad-b7d6-a6db27564101",
+    "emailFrom" : "info@ethernal-mysql-signup-verification-api.com",
+    "smtpOptions": {
+        "host": "smtp.ethereal.email",
+        "port": 587,
+        "tls": {
+            "rejectUnauthorized": false,
+            "minVersion": "TLSv1.2"
+        },
+        "auth": {
+            "user":"francis.cummerata75@ethereal.email",
+            "pass":"sK8WwmjzCkRaEVUesd"
+        }
+    }
+}
